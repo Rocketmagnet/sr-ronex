@@ -53,6 +53,7 @@ typedef struct                                                              //!<
 {                                                                           //   ----------------
     int16u  analogue_in[12];
     int16u  digital_in;                                                     //!< Bit n: Status of digital pin n.
+    int16u  flags;
 }RONEX_STATUS_0000000C;
 
 
